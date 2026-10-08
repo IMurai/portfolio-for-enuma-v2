@@ -98,17 +98,17 @@ export const projects = {
       media: {
         type: "browser",
         // TODO: replace with your real screenshot, e.g. "/projects/educlass.png"
-        url: "/projects/educlass.png",
+        url: "/projects/Jadwalin.png",
         screenshot: null, // put a string path here once the file exists in /public
       },
-      title: "EDUCLASS LMS",
+      title: "JADWALIN AI CALENDER",
       status: "IN PROGRESS",
       description:
-        "A simple e-learning platform where teachers create classes, upload materials, and assign tasks, while students enroll, submit assignments, and track their grades. Features role-based access (admin, teacher, student) with JWT authentication.",
-      tags: ["React", "Node.js", "Express", "PostgreSQL", "JWT", "Docker"],
+        "A smart AI-powered calendar platform that helps users manage schedules through natural language chat interaction with an AI assistant named Aijin. Features intelligent event creation, visual calendar with circular heatmap density indicators, and floating modal dialogs. Built with a modern Bauhaus Neo-Brutalist design approach for a unique user experience.",
+      tags: ["React", "Vite", "Javascript", "HTML", "CSS", "Gemini Api"],
       links: {
         // TODO: add your repository URL
-        github: null,
+	      github: "https://github.com/IMurai/jadwalin.git",
         // TODO: add your live demo URL
         demo: { label: "LIVE DEMO", href: null },
       },
@@ -144,9 +144,9 @@ export const marquee = {
     "Next.js",
     "Node.js",
     "MySql",
-    "PostgreSQL",
-    "Flutter",
     "Linux",
+    "Flutter",
+    "PostgreSql",
     "Firebase",
     "Python",
     "Pandas",
