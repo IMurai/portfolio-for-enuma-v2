@@ -143,10 +143,10 @@ export const marquee = {
     "React",
     "Next.js",
     "Node.js",
-    "Express",
+    "MySql",
     "PostgreSQL",
     "Flutter",
-    "Dart",
+    "Linux",
     "Firebase",
     "Python",
     "Pandas",
@@ -168,7 +168,7 @@ export const contact = {
   socials: [
     {
       name: "GitHub",
-      handle: "/raihaan",
+      handle: "/IMurai",
       // TODO: replace with your real GitHub profile URL
       href: "https://github.com/IMurai",
     },
