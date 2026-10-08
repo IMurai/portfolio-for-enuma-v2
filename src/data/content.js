@@ -163,14 +163,14 @@ export const contact = {
   headingHighlight: "something",
   subtext: "Open for collaboration and learning.",
   // TODO: replace with your real e-mail address
-  email: "raihaan@example.com",
+  email: "raihaan.tech@proton.me",
   emailButton: "EMAIL ME",
   socials: [
     {
       name: "GitHub",
       handle: "/raihaan",
       // TODO: replace with your real GitHub profile URL
-      href: "https://github.com/TODO-raihaan",
+      href: "https://github.com/IMurai",
     },
     {
       name: "LinkedIn",
@@ -180,9 +180,9 @@ export const contact = {
     },
     {
       name: "Instagram",
-      handle: "@TODO-raihaan",
+      handle: "@im.murai",
       // TODO: replace with your real Instagram profile URL
-      href: "https://instagram.com/TODO-raihaan",
+      href: "https://instagram.com/im.murai",
     },
   ],
 };
