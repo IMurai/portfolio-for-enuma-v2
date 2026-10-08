@@ -18,13 +18,14 @@ export const identity = {
 };
 
 export const hero = {
-  label: "HELLO, I'M RAIHAAN",
+  label: "WELCOME TO MY PORTFOLIO",
   // "true" = filled with the blue gradient, "false" = near-black text
   headline: [
-    { text: "Designing and building ", gradient: false },
-    { text: "useful", gradient: true },
-    { text: " software, ", gradient: false },
-    { text: "driven by data.", gradient: true },
+    { text: "Hello, ", gradient: false },
+    { text: "I'm Muhammad ", gradient: false },
+    { text: "Raihaan ", gradient: true },
+    { text: "Naafi Attaryanto", gradient: false },
+    { text: ".", gradient: true },    
   ],
   subtext:
     "XI RPL student at SMKN 6 Surakarta. UI/UX designer, fullstack and mobile developer, aspiring data scientist.",
