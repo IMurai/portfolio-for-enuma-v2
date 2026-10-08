@@ -8,7 +8,7 @@
 
 export const identity = {
   name: "Raihaan",
-  fullName: "Raihaan",
+  fullName: "Muhammad Raihaan Naafi Attaryanto",
   role: "UI/UX Designer · Fullstack & Mobile Developer",
   class: "XI RPL",
   school: "SMKN 6 Surakarta",
@@ -36,7 +36,7 @@ export const about = {
   label: "ABOUT ME",
   heading: "A student who loves turning ideas into products.",
   paragraphs: [
-    "I'm Raihaan, an XI RPL student at SMKN 6 Surakarta, fascinated by the world of technology. I enjoy taking an idea from a rough sketch on paper all the way to a working product people can actually use.",
+    "I'm Muhammad Raihaan Naafi Attaryanto, an XI RPL student at SMKN 6 Surakarta, fascinated by the world of technology. I enjoy taking an idea from a rough sketch on paper all the way to a working product people can actually use.",
     "My dream is to become a Data Scientist, and along the way I explore UI/UX design, fullstack web development, mobile app development, and data science — learning a little more from every project I ship.",
   ],
   rows: [
@@ -72,15 +72,15 @@ export const skills = {
   cards: [
     {
       title: "UI/UX DESIGN",
-      tags: ["Figma", "FigJam", "Adobe Photoshop", "Canva"],
+      tags: ["Figma", "Affinity", "Adobe Photoshop", "Canva"],
     },
     {
       title: "FULLSTACK WEB DEVELOPMENT",
-      tags: ["React", "Node.js", "Express", "PostgreSQL"],
+      tags: ["React", "Node.js", "PHP", "MySql"],
     },
     {
       title: "MOBILE APP DEVELOPMENT",
-      tags: ["Flutter", "Dart", "SQLite", "Firebase"],
+      tags: ["Flutter", "Kotlin", "SQLite", "Firebase"],
     },
     {
       title: "DATA SCIENCE",
