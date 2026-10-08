@@ -126,7 +126,7 @@ export const projects = {
       status: "IN PROGRESS",
       description:
         "A personal finance app for recording income and expenses by category, with monthly summaries and charts. Works fully offline with local storage, so data stays on the device.",
-      tags: ["Flutter", "Dart", "SQLite", "FlChart"],
+      tags: ["Kotlin", "Figma", "Firebase", "FlChart"],
       links: {
         // TODO: add your repository URL
         github: null,
