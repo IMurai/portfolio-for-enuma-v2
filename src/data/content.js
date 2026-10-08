@@ -21,7 +21,7 @@ export const hero = {
   label: "WELCOME TO MY PORTFOLIO",
   // "true" = filled with the blue gradient, "false" = near-black text
   headline: [
-    { text: "Hello, ", gradient: false },
+    { text: "Hello, ", gradient: true },
     { text: "I'm Muhammad ", gradient: false },
     { text: "Raihaan ", gradient: true },
     { text: "Naafi Attaryanto", gradient: false },
