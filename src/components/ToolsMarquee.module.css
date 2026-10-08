@@ -1,0 +1,129 @@
+.section {
+  width: 100%;
+  max-width: var(--frame);
+  margin-inline: auto;
+  border-inline: 1px solid var(--line);
+  border-top: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.labelRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px var(--gutter);
+  border-bottom: 1px dashed var(--line);
+}
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.label::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: var(--blue);
+  flex: none;
+}
+
+.rule {
+  flex: 1;
+  height: 1px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--line) 0 6px,
+    transparent 6px 12px
+  );
+}
+
+.trackWrap {
+  overflow: hidden;
+  padding-block: 18px;
+}
+
+.trackWrap:focus-visible {
+  outline-offset: -4px;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: scroll 42s linear infinite;
+}
+
+.trackWrap:hover .track,
+.trackWrap:focus-within .track {
+  animation-play-state: paused;
+}
+
+/* each group carries its own trailing gap so -50% lands exactly */
+.group {
+  display: inline-flex;
+  align-items: center;
+  gap: clamp(24px, 4vw, 48px);
+  padding-right: clamp(24px, 4vw, 48px);
+  flex: none;
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: clamp(13px, 1.6vw, 16px);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: var(--blue);
+  flex: none;
+}
+
+@keyframes scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    animation: none;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 12px 28px;
+    padding-inline: var(--gutter);
+  }
+
+  .group {
+    flex-wrap: wrap;
+    gap: 12px 28px;
+    padding-right: 0;
+  }
+
+  .track .group:last-child {
+    display: none;
+  }
+
+  .trackWrap {
+    overflow-x: auto;
+  }
+}
